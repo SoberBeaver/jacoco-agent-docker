@@ -8,7 +8,7 @@ Image containing the jacoco javaagent to use as a volume container.
 version: '3.8'
 services:
   jacoco:
-    image: ictu/jacoco-agent-docker:0.8.8
+    image: ghcr.io/soberbeaver/jacoco-agent-docker:v0.8.12
     volumes:
        - jacoco:/jacoco:ro
   www:
@@ -27,7 +27,7 @@ volumes:
 version: '3.8'
 services:
   jacoco:
-    image: ictu/jacoco-agent-docker:0.8.8
+    image: ghcr.io/soberbeaver/jacoco-agent-docker:v0.8.12
     volumes:
       - jacoco:/jacoco:ro
   www:
@@ -48,7 +48,7 @@ volumes:
 version: '3.8'
 services:
   jacoco:
-    image: ictu/jacoco-agent-docker:0.8.8
+    image: ghcr.io/soberbeaver/jacoco-agent-docker:v0.8.12
     volumes:
       - jacoco:/jacoco:ro
   www:
